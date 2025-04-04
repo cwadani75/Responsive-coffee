@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>My Products</title>
+    <style>
+        .footer-section {
+            background-color: #212529;
+            color: white;
+        }
+        .footer-links a:hover {
+            color: #ffc107 !important;
+        }
+        .newsletter-btn {
+            background-color: #ffc107;
+            color: #212529;
+        }
+        .newsletter-btn:hover {
+            background-color: #e0a800;
+        }
+        .social-icon:hover {
+            color: #ffc107 !important;
+            transform: scale(1.1);
+        }
+        .payment-methods {
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+        .payment-methods:hover {
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div class="bg-danger text-white container-fluid p-2">
+        <h1 class="text-white">Our Products</h1>
+    </div>
+    
+    <div class="container flex-grow-1">
+        <div class="form m-5">
+            <form>
+              <div class="mb-3">
+                <label for="productTitle" class="form-label text-danger">Product name</label>
+                <input type="text" class="form-control" id="productTitle" placeholder="Enter product name">
+              </div>
+              <div class="mb-3">
+                <label for="productId" class="form-label text-danger">Product id</label>
+                <input type="text" class="form-control" id="productId" placeholder="Enter product id">
+              </div>
+              <div class="mb-3">
+                <label for="productPoster" class="form-label text-danger">Product image</label>
+                <input type="text" class="form-control" id="productPoster" placeholder="Enter image URL">
+              </div>
+              <div class="mb-3">
+                <label for="productPlot" class="form-label text-danger">Product description</label>
+                <textarea class="form-control" id="productPlot" rows="3" placeholder="Enter product description"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="productPrice" class="form-label text-danger">Product price</label>
+                <input type="number" class="form-control" id="productPrice" placeholder="Enter price">
+              </div>
+              <button class="btn btn-danger mt-3" type="submit">Add Product</button>
+            </form>
+        </div>
+        
+        <div class="row m-5" id="products-container"></div>
+    </div>
+
+    <!-- Coffee Shop Footer -->
+    <footer class="footer-section pt-5 pb-4 mt-auto">
+        <div class="container">
+            <div class="row">
+                <!-- About Column -->
+                <div class="col-md-3 mb-4">
+                    <h2 class="text-warning mb-3">☕ Coffee</h2>
+                    <p class="text-white-50">
+                        We're dedicated to crafting the perfect coffee experience in Garissa, Kenya. Our beans are ethically sourced and freshly roasted for maximum flavor.
+                    </p>
+                    <div class="d-flex mt-4">
+                        <a href="#" class="text-white me-3 social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3 social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3 social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links Column -->
+                <div class="col-md-3 mb-4">
+                    <h3 class="text-warning border-bottom border-warning pb-2 mb-3">Quick Links</h3>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="#Home" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right text-warning me-2"></i> Home</a></li>
+                        <li class="mb-2"><a href="#About" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right text-warning me-2"></i> About Us</a></li>
+                        <li class="mb-2"><a href="#Menu" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right text-warning me-2"></i> Our Menu</a></li>
+                        <li class="mb-2"><a href="#Testimonials" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right text-warning me-2"></i> Testimonials</a></li>
+                        <li><a href="#Contact" class="text-white-50 text-decoration-none"><i class="fas fa-chevron-right text-warning me-2"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info Column -->
+                <div class="col-md-3 mb-4">
+                    <h3 class="text-warning border-bottom border-warning pb-2 mb-3">Contact Us</h3>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-3 d-flex">
+                            <i class="fas fa-map-marker-alt text-warning me-3 mt-1"></i>
+                            <span>123 Campsite Avenue, Wilderness, Garissa, Kenya</span>
+                        </li>
+                        <li class="mb-3 d-flex">
+                            <i class="fas fa-phone-alt text-warning me-3"></i>
+                            <span>(123) 0725942450</span>
+                        </li>
+                        <li class="mb-3 d-flex">
+                            <i class="fas fa-envelope text-warning me-3"></i>
+                            <span>cwadani75@gmail.com</span>
+                        </li>
+                        <li class="d-flex">
+                            <i class="fas fa-clock text-warning me-3"></i>
+                            <span>Mon-Fri: 8AM - 9PM<br>Sat-Sun: 9AM - 10PM</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter Column -->
+                <div class="col-md-3 mb-4">
+                    <h3 class="text-warning border-bottom border-warning pb-2 mb-3">Newsletter</h3>
+                    <p class="text-white-50">
+                        Subscribe to our newsletter for the latest updates, promotions, and coffee tips!
+                    </p>
+                    <form class="mt-4">
+                        <div class="mb-3">
+                            <input type="email" class="form-control bg-dark text-white border-dark" placeholder="Your email address">
+                        </div>
+                        <button type="submit" class="btn newsletter-btn w-100">Subscribe</button>
+                    </form>
+                    <div class="mt-4">
+                        <img src="/images/mpesa.png" alt="Payment Methods" class="img-fluid payment-methods">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Copyright Footer -->
+        <div class="container-fluid bg-dark py-3">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                    <p class="text-white-50 mb-2 mb-md-0">&copy; 2024 Coffee Shop. All rights reserved.</p>
+                    <div class="d-flex mb-2 mb-md-0">
+                        <a href="#" class="text-white-50 me-3 text-decoration-none">Privacy Policy</a>
+                        <span class="text-white-50 me-3">|</span>
+                        <a href="#" class="text-white-50 text-decoration-none">Refund Policy</a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" class="text-white-50 
+                        me-3 social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white-50 me-3 social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white-50 social-icon"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>

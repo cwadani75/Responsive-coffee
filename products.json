@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": "8",
+      "Title": "grilled mushrooms",
+      "Poster": "https://img.freepik.com/premium-photo/grilled-mushrooms-vegetables_397170-159.jpg?ga=GA1.1.732804905.1743428228&semt=ais_hybrid&w=740",
+      "Plot": "testy",
+      "Price": "7"
+    },
+    {
+      "id": "2",
+      "Title": "grilled beef steak",
+      "Poster": "https://img.freepik.com/premium-photo/grilled-beef-steak-vegetables-with-wine-flowers-white-surface_70626-12738.jpg?w=1380",
+      "Plot": "delicious meal",
+      "Price": "6"
+    },
+    {
+      "id": "3",
+      "Title": "fried chicken",
+      "Poster": "https://img.freepik.com/free-photo/fried-chicken-breast-with-vegetables_140725-4649.jpg?t=st=1743853265~exp=1743856865~hmac=6276ae1ad7c7db3f31097bd206e4e57729861bd3bc52744c03f15cdf1d015dc1&w=826",
+      "Plot": "hot and sweetest",
+      "Price": "15"
+    },
+    {
+      "id": "4",
+      "Title": "grilled fish",
+      "Poster": "https://img.freepik.com/free-photo/grilled-fish-with-vegetable-salad-onion-sumac-sprinkles_140725-10554.jpg?t=st=1743853383~exp=1743856983~hmac=142ca1812e8237b24d6e68323f6d900e1b8b5b838d0bd267535d5770cfb885f8&w=740",
+      "Plot": "flavorful and satisfying",
+      "Price": "14"
+    },
+    {
+      "id": "5",
+      "Title": "kebab platter with grilled chicken",
+      "Poster": "https://img.freepik.com/free-photo/kebab-platter-with-grilled-chicken-lula-kebab-ribs-kebab-grilled-peppers_140725-6683.jpg?t=st=1743853512~exp=1743857112~hmac=c8d7a7b5bf372c47c353c7103e6889d3e7af0dbe3149352de5ee438b4068ebac&w=1380",
+      "Plot": "Delicious kebab platter wuth juicy grilled chicken",
+      "Price": "20"
+    },
+    {
+      "id": "6",
+      "Title": "kebab platter ",
+      "Poster": "https://img.freepik.com/free-photo/top-view-kebab-platter-skewers-served-with-salad_140725-5137.jpg?t=st=1743853912~exp=1743857512~hmac=c983a8e15b85298355a8efeeaff0ccc4b16712db6773ef12b6472845e541de03&w=826",
+      "Plot": "very adorable and testy",
+      "Price": "9"
+    },
+    {
+      "id": "7",
+      "Title": "lule kebab with unions",
+      "Poster": "https://img.freepik.com/free-photo/lule-kebab-with-onions-pickles_140725-6245.jpg?t=st=1743854379~exp=1743857979~hmac=fada1d8140382591a2c0fa0e7982fc37623824afb7ec1dfab88ef1d54d26328c&w=1380",
+      "Plot": "perfectly and delicious",
+      "Price": "12"
+    },
+    {
+      "id": "8",
+      "Title": "various kebab with rice",
+      "Poster": "https://img.freepik.com/free-photo/various-kebab-with-rice-vegetables_140725-7110.jpg?t=st=1743854521~exp=1743858121~hmac=11aa02f5691a7466952e6fb4662884bcf7a4fd7196fe7e4b39528f80852c6429&w=740",
+      "Plot": "its test and delicious",
+      "Price": "10"
+    },
+    {
+      "id": "9",
+      "Title": "delicious fries chicken",
+      "Poster": "https://img.freepik.com/free-photo/top-view-delicious-fried-chicken-with-pepper-dark-purple-space_140725-75659.jpg?t=st=1743854879~exp=1743858479~hmac=f410319a2c4aee04585ddeee765ee189a49c00af36c55143de9b448a657a0b25&w=1380",
+      "Plot": "delicious and perfect",
+      "Price": "22"
+    },
+    {
+      "id": "",
+      "Title": "",
+      "Poster": "",
+      "Plot": "",
+      "Price": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": "7861",
+      "personalInfo": {
+        "firstName": "mohamed",
+        "lastName": "hassan",
+        "email": "cwadani75@gmail.com",
+        "phone": "0725942450"
+      },
+      "shippingAddress": {
+        "address": "bulo collegde",
+        "address2": "south c",
+        "city": "garissa",
+        "state": "Amani state",
+        "zip": "007",
+        "country": "KE"
+      },
+      "paymentMethod": "mpesa",
+      "paymentDetails": {
+        "cardNumber": "6566565",
+        "expiryDate": "20/04/2025",
+        "cvv": "6745",
+        "cardName": "Equity"
+      },
+      "orderSummary": {
+        "subtotal": "$0.00",
+        "shipping": "$5.00",
+        "tax": "$0.00",
+        "total": "$0.00"
+      },
+      "agreedToTerms": true
+    }
+  ]
+}

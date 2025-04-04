@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- linking font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Linking swiper CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+     <!-- linking tailwind  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕ Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#Menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="/products.html" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="/order.html" class="nav-link">order</a></li>
+                <li class="nav-item"><a href="#Testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#Gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="Home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special coffee</h3>
+                    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                    <div class="buttons">
+                        <a href="products.html" class="button order-now">Order Now</a>
+                        <a href="pages/contact.html" class="button contact-us">Contact Us</a>
+
+                    </div>
+                    
+                    
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/download-8.png" alt="Coffee Image" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="About">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/cples-6.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="text-xl font-bold text-center text-gray-900 mb-4 relative after:content-[''] after:block after:bg-yellow-500 after:h-1 after:w-12 after:mx-auto after:mt-1">
+                        About Us
+                    </h2>
+                    
+                    <p class="text">At Coffee House in Garissa, Kenya, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <!-- Menu Section -->
+<section class="menu-section py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-200" id="Menu">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-xl font-bold text-center text-gray-900 mb-4 relative after:content-[''] after:block after:bg-yellow-500 after:h-1 after:w-12 after:mx-auto after:mt-1">
+           Our Menu
+        </h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <!-- Row 1 -->
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/download (4).png" alt="Hot coffee" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center py-2 text-lg font-semibold">Hot Coffee - $3.99</div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/download (1).png" alt="Burger & french fries" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center py-2 text-lg font-semibold">Burger & Fries - $8.99</div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/download (2).png" alt="Refreshment" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center py-2 text-lg font-semibold">Refreshment - $5.49</div>
+            </div>
+            
+            <!-- Row 2 -->
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/download (3).png" alt="Special combus" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center py-2 text-lg font-semibold">Special Combos - $12.99</div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/download (5).png" alt="Chocolate cream & cherries" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center py-2 text-lg font-semibold">Chocolate Cream & Cherries - $6.99</div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/download (6).png" alt="Recipes and cooking" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center py-2 text-lg font-semibold">Recipes & Cooking - $9.99</div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <button class="bg-amber-900 rounded-full px-10 py-6 hover:bg-blue-800 translate-y-3 transition">
+              <a href="/products.html"> View Full Menu</a>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section" id="Testimonials">
+            <h2 class="text-xl font-bold text-center text-gray-900 mb-4 relative after:content-[''] after:block after:bg-yellow-500 after:h-1 after:w-12 after:mx-auto after:mt-1">
+                Testimonials
+            </h2>
+            
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Dr. Suleiman</h3>
+                                <p class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again."</p>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="/images/User-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Mentor.Yussuf</h3>
+                                <p class="feedback">"He likes to enjoy our services, like coffee and other offerings."</p>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Dr. Suleiman</h3>
+                                <p class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again."</p>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Dr. Suleiman</h3>
+                                <p class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again."</p>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- gallery section -->
+<section class="gallery-section py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-200" id="Gallery">
+    <div class="max-w-7xl mx-auto">
+        
+        <h2 class="text-xl font-bold text-center text-gray-900 mb-4 relative after:content-[''] after:block after:bg-yellow-500 after:h-1 after:w-12 after:mx-auto after:mt-1">
+           Our Gallery
+        </h2>
+        
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <!-- Row 1 -->
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/Eggs-Benedict-4-1000x667.jpg" alt="Eggs Benedict" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-start p-6">
+                    <h3 class="text-white text-xl font-bold">Eggs Benedict</h3>
+                    <p class="text-white text-lg font-semibold mt-2">$12.99</p>
+                </div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/gettyimages-1173459292-612x612.jpg" alt="Getty Image" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-start p-6">
+                    <h3 class="text-white text-xl font-bold">Delicious Breakfast</h3>
+                    <p class="text-white text-lg font-semibold mt-2">$9.99</p>
+                </div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/stock-3.jpg" alt="Stock Image" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-start p-6">
+                    <h3 class="text-white text-xl font-bold">Fresh Ingredients</h3>
+                    <p class="text-white text-lg font-semibold mt-2">$7.49</p>
+                </div>
+            </div>
+            
+            <!-- Row 2 -->
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/stock-44.jpg" alt="Stock Image 44" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-start p-6">
+                    <h3 class="text-white text-xl font-bold">Gourmet Dish</h3>
+                    <p class="text-white text-lg font-semibold mt-2">$15.99</p>
+                </div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/coffee-cub.webp" alt="Coffee Cup" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-start p-6">
+                    <h3 class="text-white text-xl font-bold">Artisan Coffee</h3>
+                    <p class="text-white text-lg font-semibold mt-2">$4.99</p>
+                </div>
+            </div>
+            
+            <div class="relative group overflow-hidden rounded-xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <div class="aspect-w-1 aspect-h-1 w-full h-64">
+                    <img src="images/bacon-3.webp" alt="Bacon" 
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-start p-6">
+                    <h3 class="text-white text-xl font-bold">Crispy Bacon</h3>
+                    <p class="text-white text-lg font-semibold mt-2">$6.49</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <button class="bg-gradient-to-r from-amber-900 to-yellow-600 text-white font-bold rounded-full px-12 py-6 shadow-lg hover:from-blue-800 hover:to-blue-500 transform hover:scale-105 transition duration-300 ease-in-out">
+                <a href="/products.html" class="block w-full h-full">View More Photos</a>
+            </button>
+        </div>
+        
+    </div>
+</section>
+
+        
+
+         <!-- contact section  -->
+          <section class="contact-section" id="Contact">
+            <h2 class="text-2xl font-bold text-center text-gray-900 mb-4 relative after:content-[''] after:block after:bg-yellow-500 after:h-1 after:w-12 after:mx-auto after:mt-1">
+                CONTACT US
+            </h2>
+            
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Campsite Avenue, ilderness, CA 0989</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envolope"></i>
+                        <p>cwadani75@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 0725942450</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 9:00AM - 9:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Friday: Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.coffeewadani.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email"class="form-input" required>
+                    <textarea  placeholder="Your message"class="form-input" required></textarea>
+                    <button class="button submit-button bg-blue-800 text-white hover:bg-yellow-700 px-10 py-6 rounded-full transition hover:translate-y-3">submit</button>
+                </form>
+            </div>
+          </section>
+
+          <!-- footer section -->
+          <footer class="bg-gray-900 text-white pt-16 pb-8 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Column 1: About -->
+                <div class="space-y-6">
+                    <div class="flex items-center">
+                        <h2 class="logo-text text-3xl font-bold text-amber-400">☕ Coffee</h2>
+                    </div>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        We're dedicated to crafting the perfect coffee experience in Garissa, Kenya. Our beans are ethically sourced and freshly roasted for maximum flavor.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-amber-400 transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-amber-400 transition-colors duration-300">
+                            <i class="fab fa-instagram text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-amber-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-amber-400 transition-colors duration-300">
+                            <i class="fab fa-tiktok text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Column 2: Quick Links -->
+                <div class="space-y-6">
+                    <h3 class="text-xl font-semibold text-amber-400 border-b border-amber-400 pb-2">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#Home" class="text-gray-300 hover:text-amber-400 transition-colors duration-300 flex items-center">
+                            <i class="fas fa-chevron-right text-xs mr-2 text-amber-400"></i> Home
+                        </a></li>
+                        <li><a href="#About" class="text-gray-300 hover:text-amber-400 transition-colors duration-300 flex items-center">
+                            <i class="fas fa-chevron-right text-xs mr-2 text-amber-400"></i> About Us
+                        </a></li>
+                        <li><a href="#Menu" class="text-gray-300 hover:text-amber-400 transition-colors duration-300 flex items-center">
+                            <i class="fas fa-chevron-right text-xs mr-2 text-amber-400"></i> Our Menu
+                        </a></li>
+                        <li><a href="#Testimonials" class="text-gray-300 hover:text-amber-400 transition-colors duration-300 flex items-center">
+                            <i class="fas fa-chevron-right text-xs mr-2 text-amber-400"></i> Testimonials
+                        </a></li>
+                        <li><a href="#Contact" class="text-gray-300 hover:text-amber-400 transition-colors duration-300 flex items-center">
+                            <i class="fas fa-chevron-right text-xs mr-2 text-amber-400"></i> Contact Us
+                        </a></li>
+                    </ul>
+                </div>
+        
+                <!-- Column 3: Contact Info -->
+                <div class="space-y-6">
+                    <h3 class="text-xl font-semibold text-amber-400 border-b border-amber-400 pb-2">Contact Us</h3>
+                    <ul class="space-y-4 text-gray-300">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-amber-400 mt-1 mr-3"></i>
+                            <span>123 Campsite Avenue, Wilderness, Garissa, Kenya</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt text-amber-400 mr-3"></i>
+                            <span>(123) 0725942450</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-amber-400 mr-3"></i>
+                            <span>cwadani75@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock text-amber-400 mr-3"></i>
+                            <span>Mon-Fri: 8AM - 9PM<br>Sat-Sun: 9AM - 10PM</span>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- Column 4: Newsletter -->
+                <div class="space-y-6">
+                    <h3 class="text-xl font-semibold text-amber-400 border-b border-amber-400 pb-2">Newsletter</h3>
+                    <p class="text-gray-300 text-sm">
+                        Subscribe to our newsletter for the latest updates, promotions, and coffee tips!
+                    </p>
+                    <form class="space-y-4">
+                        <input type="email" placeholder="Your email address" 
+                            class="w-full px-4 py-2 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-amber-400 text-white">
+                        <button type="submit" 
+                            class="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-6 rounded transition duration-300 transform hover:scale-105">
+                            Subscribe
+                        </button>
+                    </form>
+                    <div class="pt-4">
+                        <img src="/images/mpesa.png" alt="Payment Methods" class="opacity-80 hover:opacity-100 transition-opacity">
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+           <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text"> &copy;2024 coffee shop</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+
+                    <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy policy</a>
+                        <span class="separator"></span>
+                        <a href="#" class="policy-link">Refunf policy</a>
+
+                    </p>
+                </div>
+           </footer>
+    </main>
+
+<!-- linking swiper sccript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- linking swiper sccript -->
+
+    <script src="script.js"></script>
+</body>
+</html>

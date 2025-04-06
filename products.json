@@ -102,6 +102,37 @@
         "total": "$0.00"
       },
       "agreedToTerms": true
+    },
+    {
+      "id": "d187",
+      "personalInfo": {
+        "firstName": "Ibtisam",
+        "lastName": "Mohamud",
+        "email": "pisam82@gmail.com",
+        "phone": "07073576"
+      },
+      "shippingAddress": {
+        "address": "Eastleigh",
+        "address2": "south b",
+        "city": "nairobi",
+        "state": "Madina",
+        "zip": "047",
+        "country": "KE"
+      },
+      "paymentMethod": "mpesa",
+      "paymentDetails": {
+        "cardNumber": "3434576",
+        "expiryDate": "12/5/2025",
+        "cvv": "555",
+        "cardName": "Amal card"
+      },
+      "orderSummary": {
+        "subtotal": "$0.00",
+        "shipping": "$5.00",
+        "tax": "$0.00",
+        "total": "$0.00"
+      },
+      "agreedToTerms": true
     }
   ]
 }
